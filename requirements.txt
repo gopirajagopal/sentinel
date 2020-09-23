@@ -1,0 +1,7 @@
+Flask==0.10.1
+Flask-SQLAlchemy==1.0
+werkzeug==0.9.4
+Flask-OAuthlib>=0.5.0
+Flask-PyMongo==2.3.0
+flask_oauthlib==0.9.6
+opencv-python==4.4.0.44
