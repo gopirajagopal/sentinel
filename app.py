@@ -10,7 +10,6 @@ from flask_oauthlib.provider import OAuth2Provider
 from werkzeug.utils import cached_property
 import os
 from datetime import date
-import cv2
 import re
 
 app = Flask(__name__, template_folder='templates')
