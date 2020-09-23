@@ -16,7 +16,7 @@ import re
 app = Flask(__name__, template_folder='templates')
 app.debug = True
 app.secret_key = 'secret'
-app.config["MONGO_URI"] = "mongodb://localhost:27017/SentinelInterview"
+app.config["MONGO_URI"] = "mongodb://122.164.172.238:27017/SentinelInterview"
 mongo = PyMongo(app)
 oauth = OAuth2Provider(app)
 
